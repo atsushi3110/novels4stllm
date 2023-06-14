@@ -2,7 +2,7 @@
 * **DO NOT USE THIS CODES TO VIOLATE THE TERM OF SERVICES OF ANY ONLINE SERVICE INCLIDING www.pixiv.net**
 * **THE AUTHOR HAS NO LEGAL RESPONSIBILITY TO THE USER'S ACT TO VIOLATE LAWS OF ANY STATES/NATIONS.**
 
-# novels4stllm
+# novels-scraper
 * To collect plain texts of novels in https://www.pixiv.net/novel/ 
 * Crawl URLs and scraping them and extract plain texts.
 
