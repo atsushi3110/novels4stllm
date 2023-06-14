@@ -21,6 +21,6 @@ docker run --rm novel-scraper bash -c "urlExtract https://www.pixiv.net/novel/ -
 ## Scrape HTMLs
 * To scrape html files and dump to the folder `outdir`
 ```
-docker run --mount=type=bind,src=$(pwd),target=/root --rm ubuntu-go bash -c "cat urls.txt|grep https://www.pixiv.net/novel/show.php?id=  | xargs -I {} python3 url_pixiv.py --head_url {} --out_dir ./outdir"
+docker run --mount=type=bind,src=$(pwd),target=/root --rm ubuntu-go bash -c "cat urls.txt|grep https://www.pixiv.net/novel/show.php?id=  | xargs -I {} python3 pixiv_scraper.py --head_url {} --out_dir ./outdir"
 ```
 
